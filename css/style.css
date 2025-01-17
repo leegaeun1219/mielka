@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#section1{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* slick */
+.slider {
+    width: 100%;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+  color: gainsboro
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: 1;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
